@@ -1,0 +1,3919 @@
+{
+    "cars": [
+    {
+        "id_car" : "HCT05",
+        "col" : "001",
+        "model_name" : "1970 Pontiac Firebird",
+        "version" : "Color 1",
+        "series" : ["HW Dream Garage", "New for 2022"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX22",
+        "col" : "001",
+        "model_name" : "1970 Pontiac Firebird",
+        "version" : "Color 2",
+        "series" : ["HW Dream Garage", "New for 2022"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT80",
+        "col" : "002",
+        "model_name" : "Twinnin' 'n Winnin'",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW83",
+        "col" : "002",
+        "model_name" : "Twinnin' 'n Winnin'",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV09",
+        "col" : "003",
+        "model_name" : "Baja Bone Shaker",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW68",
+        "col" : "003",
+        "model_name" : "Baja Bone Shaker",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV46",
+        "col" : "004",
+        "model_name" : "Bubble Matic",
+        "version" : "Color 1",
+        "series" : ["Experimotors", "Ryu's Rides"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW69",
+        "col" : "004",
+        "model_name" : "Bubble Matic",
+        "version" : "Color 2",
+        "series" : ["Experimotors", "Ryu's Rides"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT32",
+        "col" : "005",
+        "model_name" : "Mighty K",
+        "version" : "Color 1",
+        "series" : ["HW Metro", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW70",
+        "col" : "005",
+        "model_name" : "Mighty K",
+        "version" : "Color 2",
+        "series" : ["HW Metro", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW57",
+        "col" : "006",
+        "model_name" : "Fast Gassin",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW94",
+        "col" : "006",
+        "model_name" : "Fast Gassin",
+        "version" : "Color 2",
+        "series" : ["HW Metro"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX94",
+        "col" : "007",
+        "model_name" : "The Dark Knight Batmobile",
+        "version" : "TH",
+        "series" : ["Batman", "Treasure Hunt"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT55",
+        "col" : "008",
+        "model_name" : "Standard Kart",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV00",
+        "col" : "009",
+        "model_name" : "Minecart",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT27",
+        "col" : "010",
+        "model_name" : "Tooned Volkswagen Golf Mk1",
+        "version" : "Color 1",
+        "series" : ["Tooned", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW71",
+        "col" : "010",
+        "model_name" : "Tooned Volkswagen Golf Mk1",
+        "version" : "Color 2",
+        "series" : ["Tooned", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT68",
+        "col" : "011",
+        "model_name" : "Car-de-Asada",
+        "version" : "Color 1",
+        "series" : ["Fast Foodie", "Ryu's Rides"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW72",
+        "col" : "011",
+        "model_name" : "Car-de-Asada",
+        "version" : "Color 2",
+        "series" : ["Fast Foodie", "Ryu's Rides"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT16",
+        "col" : "012",
+        "model_name" : "Porsche 935",
+        "version" : "Color 1",
+        "series" : ["HW Turbo", "New for 2022"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW73",
+        "col" : "012",
+        "model_name" : "Porsche 935",
+        "version" : "Color 2",
+        "series" : ["HW Turbo", "New for 2022"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY66",
+        "col" : "012",
+        "model_name" : "Porsche 935",
+        "version" : "Color 3",
+        "series" : ["Red Edition", "New for 2022"],
+        "col_serie" : "9/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV25",
+        "col" : "013",
+        "model_name" : "'85 Honda City Turbo II",
+        "version" : "Color 1",
+        "series" : ["HW Turbo", "Ryu's Rides"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW74",
+        "col" : "013",
+        "model_name" : "'85 Honda City Turbo II",
+        "version" : "Color 2",
+        "series" : ["HW Turbo", "Ryu's Rides"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV44",
+        "col" : "014",
+        "model_name" : "Skull Crusher",
+        "version" : "Color 1",
+        "series" : ["Street Beasts"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW75",
+        "col" : "014",
+        "model_name" : "Skull Crusher",
+        "version" : "Color 2",
+        "series" : ["Street Beasts"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV40",
+        "col" : "015",
+        "model_name" : "Let's GO",
+        "version" : "Color 1",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW76",
+        "col" : "015",
+        "model_name" : "Let's GO",
+        "version" : "Color 2",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV41",
+        "col" : "016",
+        "model_name" : "Bogzilla",
+        "version" : "Color 1",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW85",
+        "col" : "016",
+        "model_name" : "Bogzilla",
+        "version" : "Color 2",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV01",
+        "col" : "017",
+        "model_name" : "Toyota AE86 Sprinter Trueno",
+        "version" : "Color 1",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW77",
+        "col" : "017",
+        "model_name" : "Toyota AE86 Sprinter Trueno",
+        "version" : "Color 2",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV27",
+        "col" : "018",
+        "model_name" : "'19 Mercedes-Benz A-Class",
+        "version" : "Color 1",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY24",
+        "col" : "018",
+        "model_name" : "'19 Mercedes-Benz A-Class",
+        "version" : "Zamac",
+        "series" : ["HW Hatchbacks", "Walmart Exclusive"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW78",
+        "col" : "018",
+        "model_name" : "'19 Mercedes-Benz A-Class",
+        "version" : "Color 2",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT61",
+        "col" : "019",
+        "model_name" : "The Nash",
+        "version" : "Color 1",
+        "series" : ["Compact Kings"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW79",
+        "col" : "019",
+        "model_name" : "The Nash",
+        "version" : "Color 2",
+        "series" : ["Compact Kings"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV05",
+        "col" : "020",
+        "model_name" : "'55 Chevy",
+        "version" : "Color 1",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY10",
+        "col" : "020",
+        "model_name" : "'55 Chevy",
+        "version" : "STH",
+        "series" : ["Chevy Bel Air", "Super Treasure Hunt"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW84",
+        "col" : "020",
+        "model_name" : "'55 Chevy",
+        "version" : "Color 2",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV23",
+        "col" : "021",
+        "model_name" : "'76 Greenwood Corvette",
+        "version" : "Color 1",
+        "series" : ["HW Contoured"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY60",
+        "col" : "021",
+        "model_name" : "'76 Greenwood Corvette",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "3/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW80",
+        "col" : "021",
+        "model_name" : "'76 Greenwood Corvette",
+        "version" : "Color 3",
+        "series" : ["HW Contoured"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT41",
+        "col" : "022",
+        "model_name" : "Roadster Bite",
+        "version" : "Color 1",
+        "series" : ["HW Speed Team", "New for 2022"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW81",
+        "col" : "022",
+        "model_name" : "Roadster Bite",
+        "version" : "Color 2",
+        "series" : ["HW Speed Team", "New for 2022"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV97",
+        "col" : "023",
+        "model_name" : "2020 Ram 1500 Rebel",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX93",
+        "col" : "023",
+        "model_name" : "2020 Ram 1500 Rebel",
+        "version" : "Color 2",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV58",
+        "col" : "024",
+        "model_name" : "Mazda REPU",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY26",
+        "col" : "024",
+        "model_name" : "Mazda REPU",
+        "version" : "Zamac",
+        "series" : ["HW Hot Trucks", "Walmart Exclusive"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW82",
+        "col" : "024",
+        "model_name" : "Mazda REPU",
+        "version" : "Color 2",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV03",
+        "col" : "025",
+        "model_name" : "Humvee",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT50",
+        "col" : "026",
+        "model_name" : "'20 Jeep Gladiator",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY25",
+        "col" : "026",
+        "model_name" : "'20 Jeep Gladiator",
+        "version" : "Zamac",
+        "series" : ["Baja Blazers", "Walmart Exclusive"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW66",
+        "col" : "026",
+        "model_name" : "'20 Jeep Gladiator",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT36",
+        "col" : "027",
+        "model_name" : "Bricking Trails",
+        "version" : "Color 1",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW86",
+        "col" : "027",
+        "model_name" : "Bricking Trails",
+        "version" : "Color 2",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV67",
+        "col" : "028",
+        "model_name" : "Tooligan",
+        "version" : "Color 1",
+        "series" : ["Experimotors"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX90",
+        "col" : "028",
+        "model_name" : "Tooligan",
+        "version" : "Color 2",
+        "series" : ["Experimotors"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT48",
+        "col" : "029",
+        "model_name" : "2009 Ford F-150",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV02",
+        "col" : "030",
+        "model_name" : "Street Cleaver",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW98",
+        "col" : "030",
+        "model_name" : "Street Cleaver",
+        "version" : "Color 2",
+        "series" : ["HW Metro"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV73",
+        "col" : "031",
+        "model_name" : "Loco Motorin'",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "5/1'",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX83",
+        "col" : "031",
+        "model_name" : "Loco Motorin'",
+        "version" : "Color 2",
+        "series" : ["HW Metro"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV63",
+        "col" : "032",
+        "model_name" : "Batman: Arkham Asylum Batmobile",
+        "version" : "Color 1",
+        "series" : ["Batman"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW59",
+        "col" : "032",
+        "model_name" : "Batman: Arkham Asylum Batmobile",
+        "version" : "Color 2",
+        "series" : ["Batman"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW63",
+        "col" : "032",
+        "model_name" : "Batman: Arkham Asylum Batmobile",
+        "version" : "Color 3",
+        "series" : ["Batman"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT21",
+        "col" : "033",
+        "model_name" : "'87 Ford Sierra Cosworth",
+        "version" : "Color 1",
+        "series" : ["Retro Racers", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW87",
+        "col" : "033",
+        "model_name" : "'87 Ford Sierra Cosworth",
+        "version" : "Color 2",
+        "series" : ["Retro Racers", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW51",
+        "col" : "034",
+        "model_name" : "'73 BMW 3.0 CSL Race Car",
+        "version" : "Color 1",
+        "series" : ["Retro Racers"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY20",
+        "col" : "034",
+        "model_name" : "'73 BMW 3.0 CSL Race Car",
+        "version" : "STH",
+        "series" : ["Retro Racers", "Super Treasure Hunt"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY58",
+        "col" : "034",
+        "model_name" : "'73 BMW 3.0 CSL Race Car",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "1/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT56",
+        "col" : "035",
+        "model_name" : "Disney Steamboat",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV45",
+        "col" : "036",
+        "model_name" : "Skull Shaker",
+        "version" : "Color 1",
+        "series" : ["Tooned", "Ryu's Rides"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX87",
+        "col" : "036",
+        "model_name" : "Skull Shaker",
+        "version" : "Color 2",
+        "series" : ["Tooned", "Ryu's Rides"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX97",
+        "col" : "037",
+        "model_name" : "Quick Bite",
+        "version" : "TH",
+        "series" : ["Fast Foodie", "Treasure Hunt"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW49",
+        "col" : "038",
+        "model_name" : "'16 Cadillac ATS-V R",
+        "version" : "Color 1",
+        "series" : ["HW Turbo"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV66",
+        "col" : "039",
+        "model_name" : "Veloci-Racer",
+        "version" : "Color 1",
+        "series" : ["Street Beasts"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX27",
+        "col" : "039",
+        "model_name" : "Veloci-Racer",
+        "version" : "Color 2",
+        "series" : ["Street Beasts"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV42",
+        "col" : "040",
+        "model_name" : "Fig Rig",
+        "version" : "Color 1",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV28",
+        "col" : "041",
+        "model_name" : "Ford Focus RS",
+        "version" : "Color 1",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY50",
+        "col" : "041",
+        "model_name" : "Ford Focus RS",
+        "version" : "Color 2",
+        "series" : ["HW Hatchbacks", "Kroger Exclusive"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX73",
+        "col" : "041",
+        "model_name" : "Ford Focus RS",
+        "version" : "Color 3",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV26",
+        "col" : "042",
+        "model_name" : "Volkswagen Beetle",
+        "version" : "Color 1",
+        "series" : ["Compact Kings"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY59",
+        "col" : "042",
+        "model_name" : "Volkswagen Beetle",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "2/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW88",
+        "col" : "042",
+        "model_name" : "Volkswagen Beetle",
+        "version" : "Color 3",
+        "series" : ["Compact Kings"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV06",
+        "col" : "043",
+        "model_name" : "'55 Chevy Bel Air Gasser",
+        "version" : "Color 1",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW89",
+        "col" : "043",
+        "model_name" : "'55 Chevy Bel Air Gasser",
+        "version" : "Color 2",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV07",
+        "col" : "044",
+        "model_name" : "'57 Chevy",
+        "version" : "Color 1",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX92",
+        "col" : "044",
+        "model_name" : "'57 Chevy",
+        "version" : "Color 2",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW40",
+        "col" : "045",
+        "model_name" : "Fly-By",
+        "version" : "Color 1",
+        "series" : ["HW Contoured"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV24",
+        "col" : "046",
+        "model_name" : "'70 Chevy Chevelle",
+        "version" : "Color 1",
+        "series" : ["HW Contoured"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV61",
+        "col" : "047",
+        "model_name" : "Fast Fish",
+        "version" : "Color 1",
+        "series" : ["HW Speed Team"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX67",
+        "col" : "047",
+        "model_name" : "Fast Fish",
+        "version" : "Color 2",
+        "series" : ["HW Speed Team"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW46",
+        "col" : "048",
+        "model_name" : "La Fasta",
+        "version" : "Color 1",
+        "series" : ["HW Speed Team"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX76",
+        "col" : "048",
+        "model_name" : "La Fasta",
+        "version" : "Color 2",
+        "series" : ["HW Speed Team"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV57",
+        "col" : "049",
+        "model_name" : "Tesla Cybertruck",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV13",
+        "col" : "050",
+        "model_name" : "Track Manga",
+        "version" : "Color 1",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW97",
+        "col" : "050",
+        "model_name" : "Track Manga",
+        "version" : "Color 2",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW38",
+        "col" : "051",
+        "model_name" : "Blade Raider",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW92",
+        "col" : "051",
+        "model_name" : "Blade Raider",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV55",
+        "col" : "052",
+        "model_name" : "HW450F",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT49",
+        "col" : "053",
+        "model_name" : "'19 Chevy Silverado Trail Boss LT",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW64",
+        "col" : "053",
+        "model_name" : "'19 Chevy Silverado Trail Boss LT",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT81",
+        "col" : "054",
+        "model_name" : "See Me Rollin'",
+        "version" : "Color 1",
+        "series" : ["Experimotors"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW93",
+        "col" : "054",
+        "model_name" : "See Me Rollin'",
+        "version" : "Color 2",
+        "series" : ["Experimotors"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT63",
+        "col" : "055",
+        "model_name" : "Dodge Van",
+        "version" : "Color 1",
+        "series" : ["HW Metro", "Ryu's Rides"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY16",
+        "col" : "055",
+        "model_name" : "Dodge Van",
+        "version" : "STH",
+        "series" : ["HW Metro", "Ryu's Rides", "Super Treasure Hunt"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT79",
+        "col" : "056",
+        "model_name" : "Barbie Dream Camper",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW37",
+        "col" : "057",
+        "model_name" : "McLaren F1 GTR",
+        "version" : "Color 1",
+        "series" : ["Retro Racers"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY51",
+        "col" : "057",
+        "model_name" : "McLaren F1 GTR",
+        "version" : "Color 2",
+        "series" : ["Retro Racers", "Kroger Exclusive"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX86",
+        "col" : "057",
+        "model_name" : "McLaren F1 GTR",
+        "version" : "Color 3",
+        "series" : ["Retro Racers"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT72",
+        "col" : "058",
+        "model_name" : "'67 Ford GT40 Mk.IV",
+        "version" : "Color 1",
+        "series" : ["Retro Racers", "Ryu's Rides"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW67",
+        "col" : "058",
+        "model_name" : "'67 Ford GT40 Mk.IV",
+        "version" : "Color 2",
+        "series" : ["Retro Racers", "Ryu's Rides"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT86",
+        "col" : "059",
+        "model_name" : "GT-Scorcher",
+        "version" : "Color 1",
+        "series" : ["Retro Racers", "Ryu's Rides"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW99",
+        "col" : "059",
+        "model_name" : "GT-Scorcher",
+        "version" : "Color 2",
+        "series" : ["Retro Racers", "Ryu's Rides"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT54",
+        "col" : "060",
+        "model_name" : "X-Jet",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT40",
+        "col" : "061",
+        "model_name" : "Sweet Driver",
+        "version" : "Color 1",
+        "series" : ["Fast Foodie", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW95",
+        "col" : "061",
+        "model_name" : "Sweet Driver",
+        "version" : "Color 2",
+        "series" : ["Fast Foodie", "New for 2022", "Ryu's Rides"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW56",
+        "col" : "062",
+        "model_name" : "Bully Goat",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX03",
+        "col" : "062",
+        "model_name" : "Bully Goat",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW34",
+        "col" : "063",
+        "model_name" : "'68 Dodge Dart",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY52",
+        "col" : "063",
+        "model_name" : "'68 Dodge Dart",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars", "Kroger Exclusive"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW96",
+        "col" : "063",
+        "model_name" : "'68 Dodge Dart",
+        "version" : "Color 3",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT77",
+        "col" : "064",
+        "model_name" : "Nissan R390 GT1",
+        "version" : "Color 1",
+        "series" : ["HW Turbo", "Ryu's Rides"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY27",
+        "col" : "064",
+        "model_name" : "Nissan R390 GT1",
+        "version" : "Zamac",
+        "series" : ["HW Turbo", "Ryu's Rides", "Walmart Exclusive"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT67",
+        "col" : "065",
+        "model_name" : "'94 Bugatti EB110 SS",
+        "version" : "Color 1",
+        "series" : ["HW Turbo", "Ryu's Rides"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX91",
+        "col" : "065",
+        "model_name" : "'94 Bugatti EB110 SS",
+        "version" : "Color 2",
+        "series" : ["HW Turbo", "Ryu's Rides"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY01",
+        "col" : "066",
+        "model_name" : "Pixel Shaker",
+        "version" : "TH",
+        "series" : ["HW Ride-Ons", "Treasure Hunt"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV32",
+        "col" : "067",
+        "model_name" : "Subaru WRX STI",
+        "version" : "Color 1",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX04",
+        "col" : "067",
+        "model_name" : "Subaru WRX STI",
+        "version" : "Color 2",
+        "series" : ["HW Hatchbacks"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT70",
+        "col" : "068",
+        "model_name" : "'21 Ford Bronco",
+        "version" : "Color 1",
+        "series" : ["Mud Studs"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW91",
+        "col" : "068",
+        "model_name" : "'21 Ford Bronco",
+        "version" : "Color 2",
+        "series" : ["Mud Studs"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW53",
+        "col" : "069",
+        "model_name" : "Rocket Box",
+        "version" : "Color 1",
+        "series" : ["Compact Kings"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX07",
+        "col" : "069",
+        "model_name" : "Rocket Box",
+        "version" : "Color 2",
+        "series" : ["Compact Kings"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV08",
+        "col" : "070",
+        "model_name" : "'59 Chevy Impala",
+        "version" : "Color 1",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY43",
+        "col" : "070",
+        "model_name" : "'59 Chevy Impala",
+        "version" : "Color 2",
+        "series" : ["Chevy Bel Air", "Dollar General Exclusive"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT42",
+        "col" : "071",
+        "model_name" : "Match It Go",
+        "version" : "Color 1",
+        "series" : ["HW Speed Team", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW90",
+        "col" : "071",
+        "model_name" : "Match It Go",
+        "version" : "Color 2",
+        "series" : ["HW Speed Team", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT18",
+        "col" : "072",
+        "model_name" : "'20 Toyota Tacoma",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks", "New for 2022"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX56",
+        "col" : "072",
+        "model_name" : "'20 Toyota Tacoma",
+        "version" : "Color 2",
+        "series" : ["HW Hot Trucks", "New for 2022"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT06",
+        "col" : "073",
+        "model_name" : "Ford Mustang Mach-E 1400",
+        "version" : "Color 1",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX38",
+        "col" : "073",
+        "model_name" : "Ford Mustang Mach-E 1400",
+        "version" : "Color 2",
+        "series" : ["HW Green Speed","New for 2022"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY30",
+        "col" : "073",
+        "model_name" : "Ford Mustang Mach-E 1400",
+        "version" : "Zamac",
+        "series" : ["HW Green Speed", "New for 2022", "Walmart Exclusive"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV15",
+        "col" : "074",
+        "model_name" : "Custom Ford Bronco",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY45",
+        "col" : "074",
+        "model_name" : "Custom Ford Bronco",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers", "Dollar General Exclusive"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV47",
+        "col" : "075",
+        "model_name" : "Airuption",
+        "version" : "Color 1",
+        "series" : ["Experimotors"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV93",
+        "col" : "076",
+        "model_name" : "'56 Ford F-100",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY61",
+        "col" : "076",
+        "model_name" : "'56 Ford F-100",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "4/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT89",
+        "col" : "077",
+        "model_name" : "Ain't Fare",
+        "version" : "Color 1",
+        "series" : ["HW Metro", "Ryu's Rides"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX00",
+        "col" : "077",
+        "model_name" : "Ain't Fare",
+        "version" : "Color 2",
+        "series" : ["HW Metro", "Ryu's Rides"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT04",
+        "col" : "078",
+        "model_name" : "Classic TV Series Batmobile",
+        "version" : "Color 1",
+        "series" : ["Batman", "New for 2022"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW60",
+        "col" : "078",
+        "model_name" : "Classic TV Series Batmobile",
+        "version" : "Color 2",
+        "series" : ["Batman", "New for 2022"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV10",
+        "col" : "079",
+        "model_name" : "'69 COPO Corvette",
+        "version" : "Color 1",
+        "series" : ["Retro Racers"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY28",
+        "col" : "079",
+        "model_name" : "'69 COPO Corvette",
+        "version" : "Zamac",
+        "series" : ["Retro Racers", "Walmart Exclusive"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV53",
+        "col" : "080",
+        "model_name" : "U.S.S. Enterprise NCC-1701",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY08",
+        "col" : "081",
+        "model_name" : "Tooned Twin Mill",
+        "version" : "TH",
+        "series" : ["Tooned", "Treasure Hunt"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV51",
+        "col" : "082",
+        "model_name" : "Donut Drifter",
+        "version" : "Color 1",
+        "series" : ["Fast Foodie"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX84",
+        "col" : "082",
+        "model_name" : "Donut Drifter",
+        "version" : "Color 2",
+        "series" : ["Fast Foodie"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT31",
+        "col" : "083",
+        "model_name" : "Count Muscula",
+        "version" : "Color 1",
+        "series" : ["HW Dream Garage", "New for 2022"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX01",
+        "col" : "083",
+        "model_name" : "Count Muscula",
+        "version" : "Color 2",
+        "series" : ["HW Dream Garage", "New for 2022"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT92",
+        "col" : "084",
+        "model_name" : "FusionBusta",
+        "version" : "Color 1",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX66",
+        "col" : "084",
+        "model_name" : "FusionBusta",
+        "version" : "Color 2",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT08",
+        "col" : "085",
+        "model_name" : "Lamborghini Sián FKP 37",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh","New for 2022"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT95",
+        "col" : "086",
+        "model_name" : "Mercedes-Benz 500 E",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY42",
+        "col" : "086",
+        "model_name" : "Mercedes-Benz 500 E",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh", "Dollar General Exclusive"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT53",
+        "col" : "087",
+        "model_name" : "Raijin Express",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars", "Ryu's Rides"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX59",
+        "col" : "087",
+        "model_name" : "Raijin Express",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars", "Ryu's Rides"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV36",
+        "col" : "088",
+        "model_name" : "Purrfect Speed",
+        "version" : "Color 1",
+        "series" : ["Street Beasts", "Year of the Tiger"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT59",
+        "col" : "089",
+        "model_name" : "TURTOshell",
+        "version" : "Color 1",
+        "series" : ["Street Beasts"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX05",
+        "col" : "089",
+        "model_name" : "TURTOshell",
+        "version" : "Color 2",
+        "series" : ["Street Beasts"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW58",
+        "col" : "090",
+        "model_name" : "Kick Kart",
+        "version" : "Color 1",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX06",
+        "col" : "090",
+        "model_name" : "Kick Kart",
+        "version" : "Color 2",
+        "series" : ["HW Ride-Ons"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT64",
+        "col" : "091",
+        "model_name" : "Toyota Land Cruiser 80",
+        "version" : "Color 1",
+        "series" : ["Mud Studs"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV22",
+        "col" : "092",
+        "model_name" : "Mad Manga",
+        "version" : "Color 1",
+        "series" : ["HW Contoured"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT51",
+        "col" : "093",
+        "model_name" : "'63 Studebaker Champ",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY14",
+        "col" : "093",
+        "model_name" : "'63 Studebaker Champ",
+        "version" : "STH",
+        "series" : ["HW Hot Trucks", "Super Treasure Hunt"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT57",
+        "col" : "094",
+        "model_name" : "Rally Baja Crawler",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT58",
+        "col" : "095",
+        "model_name" : "Hyperfin",
+        "version" : "Color 1",
+        "series" : ["HW Daredevils"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV38",
+        "col" : "096",
+        "model_name" : "Wheelie Chair",
+        "version" : "Color 1",
+        "series" : ["HW Daredevils"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX08",
+        "col" : "096",
+        "model_name" : "Wheelie Chair",
+        "version" : "Color 2",
+        "series" : ["HW Daredevils"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV76",
+        "col" : "097",
+        "model_name" : "Mazda RX-7",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX24",
+        "col" : "097",
+        "model_name" : "Mazda RX-7",
+        "version" : "Color 2",
+        "series" : ["HW J-Imports"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV84",
+        "col" : "098",
+        "model_name" : "Custom '01 Acura Integra GSR",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY44",
+        "col" : "098",
+        "model_name" : "Custom '01 Acura Integra GSR",
+        "version" : "Color 2",
+        "series" : ["HW J-Imports", "Dollar General Exclusive"],
+        "col_serie" : "",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT90",
+        "col" : "099",
+        "model_name" : "DAVancenator",
+        "version" : "Color 1",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX19",
+        "col" : "099",
+        "model_name" : "DAVancenator",
+        "version" : "Color 2",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT78",
+        "col" : "100",
+        "model_name" : "Nissan Leaf NISMO RC_02",
+        "version" : "Color 1",
+        "series" : ["HW Green Speed"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY53",
+        "col" : "100",
+        "model_name" : "Nissan Leaf NISMO RC_02",
+        "version" : "Color 2",
+        "series" : ["HW Green Speed", "Kroger Exclusive"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX89",
+        "col" : "100",
+        "model_name" : "Nissan Leaf NISMO RC_02",
+        "version" : "Color 3",
+        "series" : ["HW Green Speed"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT38",
+        "col" : "101",
+        "model_name" : "Coupe Clip",
+        "version" : "Color 1",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX09",
+        "col" : "101",
+        "model_name" : "Coupe Clip",
+        "version" : "Color 2",
+        "series" : ["Experimotors"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW55",
+        "col" : "102",
+        "model_name" : "Cockney Cab II",
+        "version" : "Color 1",
+        "series" : ["HW Metro"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX10",
+        "col" : "102",
+        "model_name" : "Cockney Cab II",
+        "version" : "Color 2",
+        "series" : ["HW Metro"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV69",
+        "col" : "103",
+        "model_name" : "Aston Martin Valhalla Concept",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT26",
+        "col" : "104",
+        "model_name" : "Toon'd '83 Chevy Silverado",
+        "version" : "Color 1",
+        "series" : ["Tooned", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX11",
+        "col" : "104",
+        "model_name" : "Toon'd '83 Chevy Silverado",
+        "version" : "Color 2",
+        "series" : ["Tooned", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV43",
+        "col" : "105",
+        "model_name" : "Bone Shaker",
+        "version" : "Color 1",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY32",
+        "col" : "105",
+        "model_name" : "Bone Shaker",
+        "version" : "Zamac",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX12",
+        "col" : "105",
+        "model_name" : "Bone Shaker",
+        "version" : "Color 2",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW39",
+        "col" : "106",
+        "model_name" : "2020 Corvette",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY11",
+        "col" : "106",
+        "model_name" : "2020 Corvette",
+        "version" : "STH",
+        "series" : ["Factory Fresh", "Super Treasure Hunt"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT93",
+        "col" : "107",
+        "model_name" : "McLaren F1",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh", "Ryu's Rides"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX13",
+        "col" : "107",
+        "model_name" : "McLaren F1",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh", "Ryu's Rides"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV74",
+        "col" : "108",
+        "model_name" : "'69 Chevy Pickup",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX45",
+        "col" : "108",
+        "model_name" : "'69 Chevy Pickup",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW33",
+        "col" : "109",
+        "model_name" : "'71 Dodge Charger",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY31",
+        "col" : "109",
+        "model_name" : "'71 Dodge Charger",
+        "version" : "Zamac",
+        "series" : ["HW Art Cars", "Walmart Exclusive"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX14",
+        "col" : "109",
+        "model_name" : "'71 Dodge Charger",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT23",
+        "col" : "110",
+        "model_name" : "LB Super Silhouette Nissan Silvia (S15)",
+        "version" : "Color 1",
+        "series" : ["HW Turbo", "New for 2022"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX15",
+        "col" : "110",
+        "model_name" : "LB Super Silhouette Nissan Silvia (S15)",
+        "version" : "Color 2",
+        "series" : ["HW Turbo", "New for 2022"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV19",
+        "col" : "111",
+        "model_name" : "'70 Chevelle SS Wagon",
+        "version" : "Color 1",
+        "series" : ["HW Wagons"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX23",
+        "col" : "111",
+        "model_name" : "'70 Chevelle SS Wagon",
+        "version" : "Color 2",
+        "series" : ["HW Wagons"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY56",
+        "col" : "111",
+        "model_name" : "'70 Chevelle SS Wagon",
+        "version" : "Color 3",
+        "series" : ["HW Wagons", "Kroger Exclusive"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV14",
+        "col" : "112",
+        "model_name" : "Big-Air Bel-Air",
+        "version" : "Color 1",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY29",
+        "col" : "112",
+        "model_name" : "Big-Air Bel-Air",
+        "version" : "Zamac",
+        "series" : ["Chevy Bel Air", "Walmart Exclusive"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX75",
+        "col" : "112",
+        "model_name" : "Big-Air Bel-Air",
+        "version" : "Color 2",
+        "series" : ["Chevy Bel Air"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY05",
+        "col" : "113",
+        "model_name" : "Draftnator",
+        "version" : "TH",
+        "series" : ["HW Speed Team", "Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV33",
+        "col" : "114",
+        "model_name" : "'83 Chevy Silverado",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY62",
+        "col" : "114",
+        "model_name" : "'83 Chevy Silverado",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "5/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT33",
+        "col" : "115",
+        "model_name" : "Lolux",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX16",
+        "col" : "115",
+        "model_name" : "Lolux",
+        "version" : "Color 2",
+        "series" : ["HW Hot Trucks", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV95",
+        "col" : "116",
+        "model_name" : "La Troca",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX77",
+        "col" : "116",
+        "model_name" : "La Troca",
+        "version" : "Color 2",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT66",
+        "col" : "117",
+        "model_name" : "Ducati Scrambler Hot Wheels Edition",
+        "version" : "Color 1",
+        "series" : ["HW Daredevils"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV85",
+        "col" : "118",
+        "model_name" : "Honda S2000",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports", "Ryu's Rides"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX25",
+        "col" : "118",
+        "model_name" : "Honda S2000",
+        "version" : "Color 2",
+        "series" : ["HW J-Imports", "Ryu's Rides"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY33",
+        "col" : "118",
+        "model_name" : "Honda S2000",
+        "version" : "Zamac",
+        "series" : ["HW J-Imports", "Ryu's Rides", "Walmart Exclusive"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV77",
+        "col" : "119",
+        "model_name" : "'91 Mazda MX-5 Miata",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports", "Ryu's Rides"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV50",
+        "col" : "120",
+        "model_name" : "Hyper Rocker",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX26",
+        "col" : "120",
+        "model_name" : "Hyper Rocker",
+        "version" : "Color 2",
+        "series" : ["HW Rescue"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT84",
+        "col" : "121",
+        "model_name" : "Lethal Diesel",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX17",
+        "col" : "121",
+        "model_name" : "Lethal Diesel",
+        "version" : "Color 2",
+        "series" : ["HW Rescue"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT85",
+        "col" : "122",
+        "model_name" : "Cosmic Coupe",
+        "version" : "Color 1",
+        "series" : ["X-Raycers"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX18",
+        "col" : "122",
+        "model_name" : "Cosmic Coupe",
+        "version" : "Color 2",
+        "series" : ["X-Raycers"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT28",
+        "col" : "123",
+        "model_name" : "Glory Chaser",
+        "version" : "Color 1",
+        "series" : ["Retro Racers", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX20",
+        "col" : "123",
+        "model_name" : "Glory Chaser",
+        "version" : "Color 2",
+        "series" : ["Red Edition", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT13",
+        "col" : "124",
+        "model_name" : "Nissan Z Proto",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh", "New for 2022"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX34",
+        "col" : "124",
+        "model_name" : "Nissan Z Proto",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh", "New for 2022"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT98",
+        "col" : "125",
+        "model_name" : "'99 Honda Civic Type R (EK9)",
+        "version" : "Color 1",
+        "series" : ["HW Hatchbacks", "Ryu's Rides"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY12",
+        "col" : "125",
+        "model_name" : "'99 Honda Civic Type R (EK9)",
+        "version" : "STH",
+        "series" : ["HW Hatchbacks", "Super Treasure Hunt", "Ryu's Rides"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY63",
+        "col" : "125",
+        "model_name" : "'99 Honda Civic Type R (EK9)",
+        "version" : "Color 2",
+        "series" : ["Red Edition", "Ryu's Rides"],
+        "col_serie" : "6/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY03",
+        "col" : "126",
+        "model_name" : "'17 Jeep Wrangler",
+        "version" : "TH",
+        "series" : ["Mud Studs", "Treasure Hunt"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW42",
+        "col" : "127",
+        "model_name" : "Rennen Rig",
+        "version" : "Color 1",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX55",
+        "col" : "127",
+        "model_name" : "Rennen Rig",
+        "version" : "Color 2",
+        "series" : ["HW Hot Trucks"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT39",
+        "col" : "128",
+        "model_name" : "Layin' Lowrider",
+        "version" : "Color 1",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX29",
+        "col" : "128",
+        "model_name" : "Layin' Lowrider",
+        "version" : "Color 2",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV70",
+        "col" : "129",
+        "model_name" : "'70 Dodge Charger",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT03",
+        "col" : "130",
+        "model_name" : "GMC Hummer EV",
+        "version" : "Color 1",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX41",
+        "col" : "130",
+        "model_name" : "GMC Hummer EV",
+        "version" : "Color 2",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV64",
+        "col" : "131",
+        "model_name" : "TV Series Batmobile",
+        "version" : "Color 1",
+        "series" : ["Batman"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW61",
+        "col" : "131",
+        "model_name" : "TV Series Batmobile",
+        "version" : "Color 2",
+        "series" : ["Batman"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT96",
+        "col" : "132",
+        "model_name" : "Porsche 935",
+        "version" : "Color 1",
+        "series" : ["Retro Racers"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV39",
+        "col" : "133",
+        "model_name" : "K.I.T.T. Super Pursuit Mode",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT35",
+        "col" : "134",
+        "model_name" : "Barbie Extra",
+        "version" : "Color 1",
+        "series" : ["Tooned", "New for 2022"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX32",
+        "col" : "134",
+        "model_name" : "Barbie Extra",
+        "version" : "Color 2",
+        "series" : ["Tooned", "New for 2022"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV52",
+        "col" : "135",
+        "model_name" : "Carbonator",
+        "version" : "Color 1",
+        "series" : ["Fast Foodie"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX33",
+        "col" : "135",
+        "model_name" : "Carbonator",
+        "version" : "Color 2",
+        "series" : ["Fast Foodie"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW31",
+        "col" : "136",
+        "model_name" : "Lotus Sport Elise",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX44",
+        "col" : "136",
+        "model_name" : "Lotus Sport Elise",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV48",
+        "col" : "137",
+        "model_name" : "Cyber Speeder",
+        "version" : "Color 1",
+        "series" : ["HW Turbo"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX46",
+        "col" : "137",
+        "model_name" : "Cyber Speeder",
+        "version" : "Color 2",
+        "series" : ["HW Turbo"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT01",
+        "col" : "138",
+        "model_name" : "Koenigsegg Gemera",
+        "version" : "Color 1",
+        "series" : ["HW Turbo", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX35",
+        "col" : "138",
+        "model_name" : "Koenigsegg Gemera",
+        "version" : "Color 2",
+        "series" : ["HW Turbo", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY06",
+        "col" : "139",
+        "model_name" : "Duck N' Roll",
+        "version" : "TH",
+        "series" : ["Street Beasts", "Treasure Hunt", "Ryu's Rides"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV21",
+        "col" : "140",
+        "model_name" : "Volvo 850 Estate",
+        "version" : "Color 1",
+        "series" : ["HW Wagons", "Ryu's Rides"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX36",
+        "col" : "140",
+        "model_name" : "Volvo 850 Estate",
+        "version" : "Color 2",
+        "series" : ["HW Wagons", "Ryu's Rides"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT75",
+        "col" : "141",
+        "model_name" : "Custom '70 Honda N600",
+        "version" : "Color 1",
+        "series" : ["Compact Kings", "Ryu's Rides"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW48",
+        "col" : "142",
+        "model_name" : "Volkswagen Käfer Racer",
+        "version" : "Color 1",
+        "series" : ["HW Contoured"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY09",
+        "col" : "142",
+        "model_name" : "Volkswagen Käfer Racer",
+        "version" : "STH",
+        "series" : ["HW Contoured", "Super Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV78",
+        "col" : "143",
+        "model_name" : "Mazda RX-3",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV83",
+        "col" : "144",
+        "model_name" : "'90 Acura NSX",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports", "Ryu's Rides"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX58",
+        "col" : "144",
+        "model_name" : "'90 Acura NSX",
+        "version" : "Color 2",
+        "series" : ["HW J-Imports", "Ryu's Rides"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW54",
+        "col" : "145",
+        "model_name" : "Snow Stormer",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX47",
+        "col" : "145",
+        "model_name" : "Snow Stormer",
+        "version" : "Color 2",
+        "series" : ["HW Rescue"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV12",
+        "col" : "146",
+        "model_name" : "2005 Ford Mustang",
+        "version" : "Color 1",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX88",
+        "col" : "146",
+        "model_name" : "2005 Ford Mustang",
+        "version" : "Color 2",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT24",
+        "col" : "147",
+        "model_name" : "Lucid Air",
+        "version" : "Color 1",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX40",
+        "col" : "147",
+        "model_name" : "Lucid Air",
+        "version" : "Color 2",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV60",
+        "col" : "148",
+        "model_name" : "Driftsta",
+        "version" : "Color 1",
+        "series" : ["HW Drift"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX43",
+        "col" : "148",
+        "model_name" : "Driftsta",
+        "version" : "Color 2",
+        "series" : ["HW Drift"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT52",
+        "col" : "149",
+        "model_name" : "Electrack",
+        "version" : "Color 1",
+        "series" : ["X-Raycers"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX63",
+        "col" : "149",
+        "model_name" : "Electrack",
+        "version" : "Color 2",
+        "series" : ["X-Raycers"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT10",
+        "col" : "150",
+        "model_name" : "'95 Jeep Cherokee",
+        "version" : "Color 1",
+        "series" : ["Baja Blazers", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX28",
+        "col" : "150",
+        "model_name" : "'95 Jeep Cherokee",
+        "version" : "Color 2",
+        "series" : ["Baja Blazers", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT82",
+        "col" : "151",
+        "model_name" : "Custom Small Block",
+        "version" : "Color 1",
+        "series" : ["Experimotors"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX69",
+        "col" : "151",
+        "model_name" : "Custom Small Block",
+        "version" : "Color 2",
+        "series" : ["Experimotors"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV65",
+        "col" : "152",
+        "model_name" : "Shelby Cobra 427 S/C",
+        "version" : "Color 1",
+        "series" : ["Retro Racers"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX48",
+        "col" : "152",
+        "model_name" : "Shelby Cobra 427 S/C",
+        "version" : "Color 2",
+        "series" : ["Retro Racers"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT47",
+        "col" : "153",
+        "model_name" : "BMW R nineT Racer",
+        "version" : "Color 1",
+        "series" : ["Retro Racers", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX31",
+        "col" : "153",
+        "model_name" : "BMW R nineT Racer",
+        "version" : "Color 2",
+        "series" : ["Retro Racers", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT99",
+        "col" : "154",
+        "model_name" : "LB-Silhouette WORKS GT Nissan 35GT-RR VER.2",
+        "version" : "Color 1",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX49",
+        "col" : "154",
+        "model_name" : "LB-Silhouette WORKS GT Nissan 35GT-RR VER.2",
+        "version" : "Color 2",
+        "series" : ["HW Dream Garage"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV91",
+        "col" : "155",
+        "model_name" : "'47 Chevy Fleetline",
+        "version" : "Color 1",
+        "series" : ["Rod Squad"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX50",
+        "col" : "155",
+        "model_name" : "'47 Chevy Fleetline",
+        "version" : "Color 2",
+        "series" : ["Rod Squad"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV56",
+        "col" : "156",
+        "model_name" : "Alfa Romeo 8C Competizione",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY34",
+        "col" : "156",
+        "model_name" : "Alfa Romeo 8C Competizione",
+        "version" : "Zamac",
+        "series" : ["Factory Fresh", "Walmart Exclusive"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW47",
+        "col" : "157",
+        "model_name" : "'17 Ford GT",
+        "version" : "Color 1",
+        "series" : ["HW Turbo"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT71",
+        "col" : "158",
+        "model_name" : "2020 Jaguar F-Type",
+        "version" : "Color 1",
+        "series" : ["HW Turbo"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY17",
+        "col" : "158",
+        "model_name" : "2020 Jaguar F-Type",
+        "version" : "STH",
+        "series" : ["HW Turbo", "Super Treasure Hunt"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT76",
+        "col" : "159",
+        "model_name" : "Range Rover Classic",
+        "version" : "Color 1",
+        "series" : ["Mud Studs"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX52",
+        "col" : "159",
+        "model_name" : "Range Rover Classic",
+        "version" : "Color 2",
+        "series" : ["Mud Studs"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW52",
+        "col" : "160",
+        "model_name" : "Volkswagen \"Baja Bug\"",
+        "version" : "Color 1",
+        "series" : ["Mud Studs"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY35",
+        "col" : "160",
+        "model_name" : "Volkswagen \"Baja Bug\"",
+        "version" : "Zamac",
+        "series" : ["Mud Studs", "Walmart Exclusive"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX74",
+        "col" : "160",
+        "model_name" : "Volkswagen \"Baja Bug\"",
+        "version" : "Color 2",
+        "series" : ["Mud Studs"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY07",
+        "col" : "161",
+        "model_name" : "Morris Mini",
+        "version" : "TH",
+        "series" : ["Compact Kings", "Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV04",
+        "col" : "162",
+        "model_name" : "Tesla Roadster",
+        "version" : "Color 1",
+        "series" : ["HW Exotics"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT34",
+        "col" : "163",
+        "model_name" : "Dimachinni Veloce",
+        "version" : "Color 1",
+        "series" : ["HW Daredevils", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX57",
+        "col" : "163",
+        "model_name" : "Dimachinni Veloce",
+        "version" : "Color 2",
+        "series" : ["HW Daredevils", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV49",
+        "col" : "164",
+        "model_name" : "Track Ripper",
+        "version" : "Color 1",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX68",
+        "col" : "164",
+        "model_name" : "Track Ripper",
+        "version" : "Color 2",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT37",
+        "col" : "165",
+        "model_name" : "Bricking Speed",
+        "version" : "Color 1",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX30",
+        "col" : "165",
+        "model_name" : "Bricking Speed",
+        "version" : "Color 2",
+        "series" : ["Experimotors", "New for 2022"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX96",
+        "col" : "166",
+        "model_name" : "Gotta Go",
+        "version" : "TH",
+        "series" : ["Experimotors", "Treasure Hunt"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV54",
+        "col" : "167",
+        "model_name" : "Back to the Future Time Machine",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV17",
+        "col" : "168",
+        "model_name" : "Mod Rod",
+        "version" : "Color 1",
+        "series" : ["Rod Squad"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW65",
+        "col" : "168",
+        "model_name" : "Mod Rod",
+        "version" : "Color 2",
+        "series" : ["Rod Squad"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT46",
+        "col" : "169",
+        "model_name" : "Honda Super Cub",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX21",
+        "col" : "169",
+        "model_name" : "Honda Super Cub",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW44",
+        "col" : "170",
+        "model_name" : "MS-T Suzuka",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX51",
+        "col" : "170",
+        "model_name" : "MS-T Suzuka",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV89",
+        "col" : "171",
+        "model_name" : "Automobili Pininfarina Battista",
+        "version" : "Color 1",
+        "series" : ["HW Exotics"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY65",
+        "col" : "171",
+        "model_name" : "Automobili Pininfarina Battista",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "8/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX53",
+        "col" : "171",
+        "model_name" : "Automobili Pininfarina Battista",
+        "version" : "Color 3",
+        "series" : ["HW Exotics"],
+        "col_serie" : "",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT97",
+        "col" : "172",
+        "model_name" : "LB-WORKS Lamborghini Huracán Coupé",
+        "version" : "Color 1",
+        "series" : ["HW Exotics"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT15",
+        "col" : "173",
+        "model_name" : "1986 Toyota Van",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX37",
+        "col" : "173",
+        "model_name" : "1986 Toyota Van",
+        "version" : "Color 2",
+        "series" : ["HW J-Imports", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW32",
+        "col" : "174",
+        "model_name" : "Nissan Skyline 2000GT-R LBWK",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV87",
+        "col" : "175",
+        "model_name" : "Custom '18 Ford Mustang GT",
+        "version" : "Color 1",
+        "series" : ["Spoiler Alert"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY18",
+        "col" : "175",
+        "model_name" : "Custom '18 Ford Mustang GT",
+        "version" : "STH",
+        "series" : ["Spoiler Alert", "Super Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCR99",
+        "col" : "176",
+        "model_name" : "Audi RS e-tron GT",
+        "version" : "Color 1",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX39",
+        "col" : "176",
+        "model_name" : "Audi RS e-tron GT",
+        "version" : "Color 2",
+        "series" : ["HW Green Speed", "New for 2022"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV86",
+        "col" : "177",
+        "model_name" : "'95 Mazda RX-7",
+        "version" : "Color 1",
+        "series" : ["HW Drift"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX62",
+        "col" : "177",
+        "model_name" : "'95 Mazda RX-7",
+        "version" : "Color 2",
+        "series" : ["HW Drift"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT65",
+        "col" : "178",
+        "model_name" : "Batmobile",
+        "version" : "Color 1",
+        "series" : ["Batman"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY36",
+        "col" : "178",
+        "model_name" : "Batmobile",
+        "version" : "Zamac",
+        "series" : ["Batman", "Walmart Exclusive"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW62",
+        "col" : "178",
+        "model_name" : "Batmobile",
+        "version" : "Color 2",
+        "series" : ["Batman"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT14",
+        "col" : "179",
+        "model_name" : "Armadillo",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time", "New for 2022"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV29",
+        "col" : "180",
+        "model_name" : "'84 Audi Sport quattro",
+        "version" : "Color 1",
+        "series" : ["Rally Champs"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX60",
+        "col" : "180",
+        "model_name" : "'84 Audi Sport quattro",
+        "version" : "Color 2",
+        "series" : ["Rally Champs"],
+        "col_serie" : "1/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV92",
+        "col" : "181",
+        "model_name" : "'40 Ford Pickup",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX61",
+        "col" : "181",
+        "model_name" : "'40 Ford Pickup",
+        "version" : "Color 2",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT74",
+        "col" : "182",
+        "model_name" : "'06 Pontiac GTO",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY37",
+        "col" : "182",
+        "model_name" : "'06 Pontiac GTO",
+        "version" : "Zamac",
+        "series" : ["HW Drag Strip", "Walmart Exclusive"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX70",
+        "col" : "182",
+        "model_name" : "'06 Pontiac GTO",
+        "version" : "Color 2",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT94",
+        "col" : "183",
+        "model_name" : "Aston Martin V12 Speedster",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX71",
+        "col" : "183",
+        "model_name" : "Aston Martin V12 Speedster",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT83",
+        "col" : "184",
+        "model_name" : "Head Gasket",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX65",
+        "col" : "184",
+        "model_name" : "Head Gasket",
+        "version" : "Color 2",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCR98",
+        "col" : "185",
+        "model_name" : "HW K.I.T.T. Concept",
+        "version" : "Color 1",
+        "series" : ["HW Exotics", "New for 2022"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX99",
+        "col" : "186",
+        "model_name" : "'87 Dodge D100",
+        "version" : "TH",
+        "series" : ["HW Daredevils", "Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV11",
+        "col" : "187",
+        "model_name" : "Nissan Skyline HT 2000GT-X",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY15",
+        "col" : "187",
+        "model_name" : "Nissan Skyline HT 2000GT-X",
+        "version" : "STH",
+        "series" : ["HW J-Imports", "Super Treasure Hunt"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW25",
+        "col" : "188",
+        "model_name" : "Ford Mustang GT Concept",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT30",
+        "col" : "189",
+        "model_name" : "Turbine Sublime",
+        "version" : "Color 1",
+        "series" : ["X-Raycers", "New for 2022"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX42",
+        "col" : "189",
+        "model_name" : "Turbine Sublime",
+        "version" : "Color 2",
+        "series" : ["X-Raycers", "New for 2022"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT73",
+        "col" : "190",
+        "model_name" : "Corvette C8.R",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV62",
+        "col" : "191",
+        "model_name" : "Twin Mill",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV37",
+        "col" : "192",
+        "model_name" : "'65 Mustang 2+2 Fastback",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY68",
+        "col" : "192",
+        "model_name" : "'65 Mustang 2+2 Fastback",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "11/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX81",
+        "col" : "192",
+        "model_name" : "'65 Mustang 2+2 Fastback",
+        "version" : "Color 3",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "1/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV68",
+        "col" : "193",
+        "model_name" : "'69 COPO Camaro",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX82",
+        "col" : "193",
+        "model_name" : "'69 COPO Camaro",
+        "version" : "Color 2",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "2/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT60",
+        "col" : "194",
+        "model_name" : "X-34 Landspeeder",
+        "version" : "Color 1",
+        "series" : ["HW Screen Time"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT91",
+        "col" : "195",
+        "model_name" : "Sand Burner",
+        "version" : "Color 1",
+        "series" : ["Rally Champs",  "Ryu's Rides"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX64",
+        "col" : "195",
+        "model_name" : "Sand Burner",
+        "version" : "Color 2",
+        "series" : ["Rally Champs", "Ryu's Rides"],
+        "col_serie" : "2/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV94",
+        "col" : "196",
+        "model_name" : "'68 El Camino",
+        "version" : "Color 1",
+        "series" : ["Rod Squad"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY38",
+        "col" : "196",
+        "model_name" : "'68 El Camino",
+        "version" : "Color 2",
+        "series" : ["Rod Squad"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT44",
+        "col" : "197",
+        "model_name" : "Hot Wired",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip", "New for 2022"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV31",
+        "col" : "198",
+        "model_name" : "'18 Dodge Challenger SRT Demon",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY69",
+        "col" : "198",
+        "model_name" : "'18 Dodge Challenger SRT Demon",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "12/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT22",
+        "col" : "199",
+        "model_name" : "Porsche 911 GT3",
+        "version" : "Color 1",
+        "series" : ["Factory Fresh", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX85",
+        "col" : "199",
+        "model_name" : "Porsche 911 GT3",
+        "version" : "Color 2",
+        "series" : ["Factory Fresh", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX98",
+        "col" : "200",
+        "model_name" : "'58 Impala",
+        "version" : "TH",
+        "series" : ["HW Art Cars", "Treasure Hunt"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV20",
+        "col" : "201",
+        "model_name" : "Cruise Bruiser",
+        "version" : "Color 1",
+        "series" : ["HW Wagons"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX72",
+        "col" : "201",
+        "model_name" : "Cruise Bruiser",
+        "version" : "Color 2",
+        "series" : ["HW Wagons"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV34",
+        "col" : "202",
+        "model_name" : "'71 Lamborghini Miura SV",
+        "version" : "Color 1",
+        "series" : ["HW Exotics"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY13",
+        "col" : "202",
+        "model_name" : "'71 Lamborghini Miura SV",
+        "version" : "STH",
+        "series" : ["HW Exotics", "Super Treasure Hunt"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX02",
+        "col" : "202",
+        "model_name" : "'71 Lamborghini Miura SV",
+        "version" : "Color 2",
+        "series" : ["HW Exotics"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT09",
+        "col" : "203",
+        "model_name" : "McLaren Elva",
+        "version" : "Color 1",
+        "series" : ["HW Exotics", "New for 2022"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX54",
+        "col" : "203",
+        "model_name" : "McLaren Elva",
+        "version" : "Color 2",
+        "series" : ["HW Exotics"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT11",
+        "col" : "204",
+        "model_name" : "Honda Civic Custom",
+        "version" : "Color 1",
+        "series" : ["HW J-Imports", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX78",
+        "col" : "204",
+        "model_name" : "Honda Civic Custom",
+        "version" : "Color 2",
+        "series" : ["HW J-Imports", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW35",
+        "col" : "205",
+        "model_name" : "HW Rapid Response",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX79",
+        "col" : "205",
+        "model_name" : "HW Rapid Response",
+        "version" : "Color 2",
+        "series" : ["HW Rescue"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW24",
+        "col" : "206",
+        "model_name" : "'15 Dodge Charger SRT",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV88",
+        "col" : "207",
+        "model_name" : "Dodge Challenger Drift Car",
+        "version" : "Color 1",
+        "series" : ["HW Drift"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX80",
+        "col" : "207",
+        "model_name" : "Dodge Challenger Drift Car",
+        "version" : "Color 2",
+        "series" : ["HW Drift"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV80",
+        "col" : "208",
+        "model_name" : "Dodge Viper RT/10",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV71",
+        "col" : "209",
+        "model_name" : "'69 Dodge Charger 500",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "3/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT88",
+        "col" : "210",
+        "model_name" : "Lancia Delta Integrale",
+        "version" : "Color 1",
+        "series" : ["Rally Champs"],
+        "col_serie" : "3/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV90",
+        "col" : "211",
+        "model_name" : "Supercharged",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW50",
+        "col" : "212",
+        "model_name" : "Aristo Rat",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW43",
+        "col" : "213",
+        "model_name" : "Electro Silhouette",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT17",
+        "col" : "214",
+        "model_name" : "Nissan Maxima Drift Car",
+        "version" : "Color 1",
+        "series" : ["HW Wagons", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT02",
+        "col" : "215",
+        "model_name" : "Pagani Zonda R",
+        "version" : "Color 1",
+        "series" : ["HW Exotics", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW26",
+        "col" : "216",
+        "model_name" : "Rescue Duty",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY02",
+        "col" : "217",
+        "model_name" : "HW Warp Speeder",
+        "version" : "TH",
+        "series" : ["X-Raycers", "Treasure Hunt"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT45",
+        "col" : "218",
+        "model_name" : "Lightnin' Bug",
+        "version" : "Color 1",
+        "series" : ["X-Raycers", "New for 2022"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV82",
+        "col" : "219",
+        "model_name" : "'18 Camaro SS",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY67",
+        "col" : "219",
+        "model_name" : "'18 Camaro SS",
+        "version" : "Color 2",
+        "series" : ["Red Edition"],
+        "col_serie" : "10/12",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV16",
+        "col" : "220",
+        "model_name" : "Toyota Supra",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW28",
+        "col" : "221",
+        "model_name" : "'84 Mustang SVO",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY19",
+        "col" : "221",
+        "model_name" : "'84 Mustang SVO",
+        "version" : "STH",
+        "series" : ["Muscle Mania", "Super Treasure Hunt"],
+        "col_serie" : "4/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV72",
+        "col" : "222",
+        "model_name" : "'69 Camaro Convertible",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "5/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY04",
+        "col" : "223",
+        "model_name" : "'98 Subaru Impreza 22B STI-Version",
+        "version" : "TH",
+        "series" : ["Rally Champs", "Treasure Hunt", "Ryu's Rides"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT29",
+        "col" : "224",
+        "model_name" : "Max Steel",
+        "version" : "Color 1",
+        "series" : ["Rod Squad", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT12",
+        "col" : "225",
+        "model_name" : "'62 Corvette Gasser",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip", "New for 2022"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW45",
+        "col" : "226",
+        "model_name" : "Altered Ego",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW41",
+        "col" : "227",
+        "model_name" : "Velocita",
+        "version" : "Color 1",
+        "series" : ["HW Art Cars"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT69",
+        "col" : "228",
+        "model_name" : "'94 Audi Avant RS2",
+        "version" : "Color 1",
+        "series" : ["HW Wagons"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY22",
+        "col" : "228",
+        "model_name" : "'94 Audi Avant RS2",
+        "version" : "STH",
+        "series" : ["HW Wagons", "Super Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT07",
+        "col" : "229",
+        "model_name" : "Lotus Evija",
+        "version" : "Color 1",
+        "series" : ["HW Exotics", "New for 2022"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW27",
+        "col" : "230",
+        "model_name" : "5 Alarm",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT87",
+        "col" : "231",
+        "model_name" : "Water Bomber",
+        "version" : "Color 1",
+        "series" : ["HW Rescue"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT20",
+        "col" : "232",
+        "model_name" : "Volvo 240 Drift Wagon",
+        "version" : "Color 1",
+        "series" : ["HW Drift", "New for 2022"],
+        "col_serie" : "4/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV35",
+        "col" : "233",
+        "model_name" : "Corvette C6R",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV96",
+        "col" : "234",
+        "model_name" : "Twin Mill III",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW30",
+        "col" : "235",
+        "model_name" : "'15 Dodge Challenger SRT",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "6/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV59",
+        "col" : "236",
+        "model_name" : "'68 Mercury Cougar",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "7/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV75",
+        "col" : "237",
+        "model_name" : "'32 Ford",
+        "version" : "Color 1",
+        "series" : ["Rod Squad"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY21",
+        "col" : "237",
+        "model_name" : "'32 Ford",
+        "version" : "STH",
+        "series" : ["Rod Squad", "Super Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT19",
+        "col" : "238",
+        "model_name" : "Aston Martin Vantage GTE",
+        "version" : "Color 1",
+        "series" : ["HW Exotics", "New for 2022"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT43",
+        "col" : "239",
+        "model_name" : "Drone Duty",
+        "version" : "Color 1",
+        "series" : ["HW Rescue", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY00",
+        "col" : "240",
+        "model_name" : "Muscle and Blown",
+        "version" : "TH",
+        "series" : ["HW Drift", "Treasure Hunt"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT62",
+        "col" : "241",
+        "model_name" : "'20 Toyota GR Supra",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV79",
+        "col" : "242",
+        "model_name" : "Dodge Viper SRT10 ACR",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV18",
+        "col" : "243",
+        "model_name" : "Chevelle SS Express",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "8/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV30",
+        "col" : "244",
+        "model_name" : "'70 Ford Escort RS1600",
+        "version" : "Color 1",
+        "series" : ["Rally Champs"],
+        "col_serie" : "5/5",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCX95",
+        "col" : "245",
+        "model_name" : "'71 Mustang Funny Car",
+        "version" : "TH",
+        "series" : ["HW Drag Strip", "Treasure Hunt"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT25",
+        "col" : "246",
+        "model_name" : "Matt and Debbie Hay's 1988 Pro Street Thunderbird",
+        "version" : "Color 1",
+        "series" : ["HW Drag Strip", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCT00",
+        "col" : "247",
+        "model_name" : "Lotus Emira",
+        "version" : "Color 1",
+        "series" : ["HW Exotics", "New for 2022"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCV81",
+        "col" : "248",
+        "model_name" : "'81 Camaro",
+        "version" : "Color 1",
+        "series" : ["Then and Now"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCY23",
+        "col" : "248",
+        "model_name" : "'81 Camaro",
+        "version" : "STH",
+        "series" : ["Then and Now", "Super Treasure Hunt"],
+        "col_serie" : "10/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW36",
+        "col" : "249",
+        "model_name" : "Ford Shelby GT350R",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "9/10",
+        "img" : ""
+    },
+    {
+        "id_car" : "HCW29",
+        "col" : "250",
+        "model_name" : "'72 Ford Gran Torino Sport",
+        "version" : "Color 1",
+        "series" : ["Muscle Mania"],
+        "col_serie" : "10/10",
+        "img" : ""
+    }
+]
+}

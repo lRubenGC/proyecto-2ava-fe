@@ -11,7 +11,10 @@
                 <span v-if="this.invalidLogin" class="error-msg">Correo o contraseña no válidos</span>
 
                 <div>
-                    <router-link to="/listado"><button>INICIAR SESIÓN</button></router-link>
+                    <button>INICIAR SESIÓN</button>
+                </div>
+                <div>
+                    <router-link to="/listado"><button>ENTRAR SIN INICIAR SESIÓN</button></router-link>
                 </div>
                 <div>
                     <p>¿No tienes cuenta? Registrate <span class="change-view" @click="$emit('change-view')">aquí</span></p>

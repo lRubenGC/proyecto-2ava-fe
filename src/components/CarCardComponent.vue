@@ -4,14 +4,19 @@
             <transition name="fade">
                 <div v-show="see_more_visibility" class="more">Ver más</div>
             </transition>
-            <img :src="imgSrc" alt="coche">
+            <div v-for="serie in car.series">
+                <img v-if="serie==='Treasure Hunt'" src="@/assets/th.png" alt="th icon" id="th-icon">
+                <img v-if="serie==='Super Treasure Hunt'" src="@/assets/sth.png" alt="th icon" id="th-icon">
+            </div>
+            <img :src="imgSrc" alt="coche" id="img-car">
             <div class="car-data">
                 <p class="title">{{ car.col }}. {{ car.model_name }}</p>
                 <p class="series">{{ car.series[0] }}</p>
                 <div v-for="serie in car.series">
                     <p v-if="serie === 'Treasure Hunt'" class="th">*TH</p>
                     <p v-if="serie === 'Super Treasure Hunt'" class="th">*STH</p>
-                </div>                
+                </div>      
+                <p class="col_series">{{ car.col_serie }}</p>
             </div>
         </div>
     </div>
@@ -57,7 +62,6 @@ export default {
     border-radius: 10px;
     position: relative;
     max-width: 300px;
-    min-height: 250px;
 }
 
 .more {
@@ -72,8 +76,11 @@ export default {
     font-size: 1.1em;
 }
 
-img {
-    max-width: 300px;
+#img-car {
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     border-bottom: 1px solid grey;
@@ -82,20 +89,35 @@ img {
 .car-data {
     display: block;
     justify-content: space-evenly;
-    font-size: 1.1em;
-    margin: 0 10px;
+    font-size: 1em;
+    font-weight: 600;
 }
 
-.title, .series {
+.title, .series, .col_series {
     display: block;
+    margin: 5px 10px;
 }
 
 .series {
-    text-align: right;
+    text-align: left;
+}
+
+.col_series {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .th, .sth {
     font-weight: 600;
+    margin: 5px 10px;
+}
+
+#th-icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 5px 0 0 5px;
 }
 
 .fade-enter-active,
