@@ -70,6 +70,7 @@ export default {
     padding: 10px;
     cursor: pointer;
     font-size: 1.1em;
+    font-weight: 600;
 }
 
 #img-car {

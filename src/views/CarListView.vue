@@ -74,14 +74,13 @@ export default {
     },
     mounted() {
         axios
-        .get(`http://192.168.1.135:8000/api/cars`)
+        .get(`http://localhost:8000/api/cars`)
         .then(response => {
             this.cars = response.data;
             this.cars.map(car => {
                 car.car_series = car.car_series.split(",");
             });
             this.cars_showed = [...this.cars];
-            console.log(this.cars_showed);
         })
         .catch(err => console.log(err))
     },
@@ -90,19 +89,8 @@ export default {
         CarCardComponent
     },
     methods: {
-        // async getCoches() {
-        //     try {
-        //         const response = await fetch(`http://192.168.1.135:8000/api/cars`);
-        //         this.cars = await response.json();
-        //     } catch (err) {
-        //         console.log(err);
-        //     }
-        // },
-
         filterBy(car_class) {
             if (car_class === 'show-all') {
-                console.log(this.cars_showed);
-                console.log(this.cars);
                 this.cars_showed = [...this.cars];
                 return;
             }
@@ -116,8 +104,6 @@ export default {
                         }
                     });
                 })
-                console.log(this.cars_showed);
-                console.log(this.cars);
                 return;
             }
 
