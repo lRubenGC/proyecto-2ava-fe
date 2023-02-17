@@ -4,19 +4,19 @@
             <transition name="fade">
                 <div v-show="see_more_visibility" class="more">Ver más</div>
             </transition>
-            <div v-for="serie in car.series">
+            <div v-for="serie in car.car_series">
                 <img v-if="serie==='Treasure Hunt'" src="@/assets/th.png" alt="th icon" id="th-icon">
                 <img v-if="serie==='Super Treasure Hunt'" src="@/assets/sth.png" alt="th icon" id="th-icon">
             </div>
-            <img :src="imgSrc" alt="coche" id="img-car">
+            <img :src="img_route" alt="coche" id="img-car">
             <div class="car-data">
-                <p class="title">{{ car.col }}. {{ car.model_name }}</p>
-                <p class="series">{{ car.series[0] }}</p>
-                <div v-for="serie in car.series">
+                <p class="title">{{ car.car_col }}. {{ car.car_model }}</p>
+                <p class="series">{{ car.car_series[0] }}</p>
+                <div v-for="serie in car.car_series">
                     <p v-if="serie === 'Treasure Hunt'" class="th">*TH</p>
                     <p v-if="serie === 'Super Treasure Hunt'" class="th">*STH</p>
                 </div>      
-                <p class="col_series">{{ car.col_serie }}</p>
+                <p class="col_series">{{ car.car_col }}</p>
             </div>
         </div>
     </div>
@@ -27,7 +27,8 @@ export default {
     name: 'car-card-component',
     data() {
         return {
-            see_more_visibility: false
+            see_more_visibility: false,
+            img_route: '/2022MainImages/'+this.car.car_image
         }
     },
     props: {
@@ -42,13 +43,12 @@ export default {
             this.see_more_visibility = false;
         }
     },
+    mounted() {
+        this.car.car_series = this.car.car_series.split(",");
+    },
     computed: {
-        imgSrc() {
-            return `/2022MainImages/${this.car.col}_${this.car.id_car}.jpg`;
-        },
-
         setBGColor() {
-            const serie = this.car.series[0].replace(/ /g,'-');
+            const serie = this.car.car_series[0].replace(/ /g,'-');
             return serie.toLowerCase();
         }
     }

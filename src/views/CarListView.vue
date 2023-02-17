@@ -4,13 +4,17 @@
         <div class="header">
             <h1>Listado de los 250 coches de Hot Wheels de 2022</h1>
             <hr>
+            <button v-on:click="filterBy('show-all')" class="filter-button show-all">Mostrar todos los coches</button>
+            <button v-on:click="filterBy('Treasure Hunt')" class="filter-button treasure-hunt">Treasure Hunts</button>
+            <button v-on:click="filterBy('Super Treasure Hunt')" class="filter-button super-treasure-hunt">Super Treasure Hunts</button>
+            <button v-on:click="filterBy('Red Edition')" class="filter-button red-edition">Red Edition</button>
             <div>
-                <button v-for="button in buttons" class="filter-button" :class="button[1]">{{ button[0] }}</button>
+                <button v-for="button in buttons" v-on:click="filterBy(button[0])" class="filter-button" :class="button[1]">{{ button[0] }}</button>
             </div>
         </div>
         <div class="card-body">
             <div class="card-list">
-                <div v-for="car in cars">
+                <div v-for="car in cars_showed">
                     <car-card-component :car="car" class="card-item" />
                 </div>
             </div>
@@ -27,10 +31,8 @@ export default {
     data() {
         return {
             cars: [],
+            cars_showed: [],
             buttons: [
-                ['Red Edition', 'red-edition'],
-                ['Treasure Hunt', 'treasure-hunt'],
-                ['Super Treasure Hunts', 'super-treasure-hunt'],
                 ['HW Dream Garage', 'hw-dream-garage'],
                 ['Baja Blazers', 'baja-blazers'],
                 ['Experimotors', 'experimotors'],
@@ -79,11 +81,34 @@ export default {
     methods: {
         async getCoches() {
             try {
-                const response = await fetch("http://localhost:3000/cars");
+                const response = await fetch("http://localhost:8000/api/cars");
                 this.cars = await response.json();
+                this.cars.map(car => car.car_series.split(','));
+                this.cars_showed = [...this.cars];
             } catch (err) {
                 console.log(err);
             }
+        },
+
+        filterBy(car_class) {
+            if (car_class === 'show-all') {
+                this.cars_showed = [...this.cars];
+                return;
+            }
+            
+            if (car_class === 'Treasure Hunt' || car_class === 'Super Treasure Hunt') {
+                this.cars_showed = [];
+                this.cars.filter(car => {
+                    car.series.some(serie => {
+                        if (serie === car_class) {
+                            this.cars_showed.push(car);
+                        }
+                    });
+                })
+                return;
+            }
+
+            this.cars_showed = this.cars.filter(car => car.series[0] === car_class);
         }
     }
 }
@@ -98,9 +123,11 @@ export default {
 .card-body {
     display: flex;
     justify-content: center;
+    cursor: default;
 }
 
 .card-list {
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(5, auto);
 }
@@ -117,11 +144,16 @@ export default {
 
 .filter-button {
     padding: 10px;
-    margin: 10px;
+    margin: 15px 5px;
     font-weight: 600;
     border: 0;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.buttonSelected {
+    padding: 15px;
+    font-size: 1em;
 }
 
 .hw-dream-garage {
@@ -165,7 +197,7 @@ export default {
 }
 
 .hw-turbo {
-    background: linear-gradient(#e3a127 85%, #ce8c01);
+    background: linear-gradient(#e3a127 60%, #ce8c01);
     color: #FFFFFF;
 }
 
@@ -195,7 +227,7 @@ export default {
 }
 
 .compact-kings {
-    background: linear-gradient(#D9C9EB 60%, #876c7d);
+    background: linear-gradient(#D9C9EB 40%, #876c7d);
     color: #000000;
 }
 
@@ -280,7 +312,7 @@ export default {
 }
 
 .hw-exotics {
-    background: linear-gradient(#DBDB09 70%, #64AE14);
+    background: linear-gradient(#DBDB09 55%, #64AE14);
 }
 
 .rally-champs {
@@ -289,7 +321,7 @@ export default {
 }
 
 .hw-drag-strip {
-    background: linear-gradient(#B1B7BE 70%, #868E95);
+    background: linear-gradient(#B1B7BE 60%, #868E95);
     color: #000000;
 }
 
@@ -310,5 +342,10 @@ export default {
 
 .super-treasure-hunt {
     background: linear-gradient(#FFD700, #D1B000);
+}
+
+.show-all {
+    background: linear-gradient(#328EE4, #000000);
+    color: #FFFFFF;
 }
 </style>
