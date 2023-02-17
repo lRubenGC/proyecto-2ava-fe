@@ -23,6 +23,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import HeaderComponent from "@/components/shared/HeaderComponent.vue";
 import CarCardComponent from "@/components/CarCardComponent.vue";
 
@@ -72,26 +73,36 @@ export default {
         }
     },
     mounted() {
-        this.getCoches();
+        axios
+        .get(`http://192.168.1.135:8000/api/cars`)
+        .then(response => {
+            this.cars = response.data;
+            this.cars.map(car => {
+                car.car_series = car.car_series.split(",");
+            });
+            this.cars_showed = [...this.cars];
+            console.log(this.cars_showed);
+        })
+        .catch(err => console.log(err))
     },
     components: {
         HeaderComponent,
         CarCardComponent
     },
     methods: {
-        async getCoches() {
-            try {
-                const response = await fetch("http://localhost:8000/api/cars");
-                this.cars = await response.json();
-                this.cars.map(car => car.car_series.split(','));
-                this.cars_showed = [...this.cars];
-            } catch (err) {
-                console.log(err);
-            }
-        },
+        // async getCoches() {
+        //     try {
+        //         const response = await fetch(`http://192.168.1.135:8000/api/cars`);
+        //         this.cars = await response.json();
+        //     } catch (err) {
+        //         console.log(err);
+        //     }
+        // },
 
         filterBy(car_class) {
             if (car_class === 'show-all') {
+                console.log(this.cars_showed);
+                console.log(this.cars);
                 this.cars_showed = [...this.cars];
                 return;
             }
@@ -99,16 +110,18 @@ export default {
             if (car_class === 'Treasure Hunt' || car_class === 'Super Treasure Hunt') {
                 this.cars_showed = [];
                 this.cars.filter(car => {
-                    car.series.some(serie => {
+                    car.car_series.some(serie => {
                         if (serie === car_class) {
                             this.cars_showed.push(car);
                         }
                     });
                 })
+                console.log(this.cars_showed);
+                console.log(this.cars);
                 return;
             }
 
-            this.cars_showed = this.cars.filter(car => car.series[0] === car_class);
+            this.cars_showed = this.cars.filter(car => car.car_series[0] === car_class);
         }
     }
 }

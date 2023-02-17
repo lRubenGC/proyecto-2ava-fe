@@ -8,7 +8,7 @@
                 <img v-if="serie==='Treasure Hunt'" src="@/assets/th.png" alt="th icon" id="th-icon">
                 <img v-if="serie==='Super Treasure Hunt'" src="@/assets/sth.png" alt="th icon" id="th-icon">
             </div>
-            <img :src="img_route" alt="coche" id="img-car">
+            <img :src="'/2022MainImages/' + car.car_image" alt="coche" id="img-car">
             <div class="car-data">
                 <p class="title">{{ car.car_col }}. {{ car.car_model }}</p>
                 <p class="series">{{ car.car_series[0] }}</p>
@@ -28,7 +28,6 @@ export default {
     data() {
         return {
             see_more_visibility: false,
-            img_route: '/2022MainImages/'+this.car.car_image
         }
     },
     props: {
@@ -42,9 +41,6 @@ export default {
         hideSeeMore() {
             this.see_more_visibility = false;
         }
-    },
-    mounted() {
-        this.car.car_series = this.car.car_series.split(",");
     },
     computed: {
         setBGColor() {
