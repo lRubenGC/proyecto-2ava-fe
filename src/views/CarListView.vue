@@ -150,11 +150,6 @@ export default {
     cursor: pointer;
 }
 
-.buttonSelected {
-    padding: 15px;
-    font-size: 1em;
-}
-
 .hw-dream-garage {
     background-color: #3F3B40;
     color: #FFFFFF;
@@ -344,7 +339,7 @@ export default {
 }
 
 .show-all {
-    background: linear-gradient(#328EE4, #000000);
+    background-color: #131921;
     color: #FFFFFF;
 }
 </style>

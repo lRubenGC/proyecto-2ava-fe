@@ -2,7 +2,9 @@
     <div id="body">
         <div class="card" :class="setBGColor" @mouseover="showSeeMore" @mouseleave="hideSeeMore">
             <transition name="fade">
-                <div v-show="see_more_visibility" class="more">Ver más</div>
+                <div v-show="see_more_visibility">
+                    <router-link class="more" :to="{ name: 'car-detailed-view', params: { id: car.id } }">Ver más</router-link>
+                </div>
             </transition>
             <div v-for="serie in car.car_series">
                 <img v-if="serie==='Treasure Hunt'" src="@/assets/th.png" alt="th icon" id="th-icon">
@@ -16,7 +18,7 @@
                     <p v-if="serie === 'Treasure Hunt'" class="th">*TH</p>
                     <p v-if="serie === 'Super Treasure Hunt'" class="th">*STH</p>
                 </div>      
-                <p class="col_series">{{ car.car_col }}</p>
+                <p class="col_series">{{ car.series_col }}</p>
             </div>
         </div>
     </div>
@@ -63,7 +65,7 @@ export default {
 .more {
     position: absolute;
     background-color: #131921;
-    color: white;
+    color: #FFFFFF;
     right: 5px;
     top: 5px;
     border-radius: 10px;
@@ -71,6 +73,7 @@ export default {
     cursor: pointer;
     font-size: 1.1em;
     font-weight: 600;
+    text-decoration: none;
 }
 
 #img-car {

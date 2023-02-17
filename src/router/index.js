@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import LoginView from '@/views/LoginView';
 import CarListView from '@/views/CarListView';
+import CarDetailedView from '@/views/CarDetailedView';
 
 const routes = [
   {
@@ -13,11 +14,11 @@ const routes = [
     name: 'car-list-view',
     component: CarListView
   },
-  // {
-  //   path: '/listado/coche',
-  //   name: 'car-list-view',
-  //   component: CarDetailedView
-  // }
+  {
+    path: '/listado/coche:id',
+    name: 'car-detailed-view',
+    component: CarDetailedView
+  }
 ]
 
 const router = createRouter({
