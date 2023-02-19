@@ -3,7 +3,7 @@
         <header-component id="header" />
         <div id="container">
             <div>
-                <img :src="'/2022MainImages/' + car.car_image" alt="coche" id="img-car">
+                <img :src="image" alt="coche" id="img-car">
             </div>
             <div class="data-part">
                 <p class="car-data">Número de la colección: {{ car.car_col }}</p>
@@ -23,12 +23,14 @@
 <script>
 import HeaderComponent from "@/components/shared/HeaderComponent.vue";
 import axios from 'axios';
+import token from "@/auth/getToken";
 
 export default {
     name: 'car-detailed-view',
     data() {
         return {
-            car: []
+            car: [],
+            image: ''
         }
     },
     components: {
@@ -37,9 +39,14 @@ export default {
     mounted() {
         const id = this.$route.params.id
         axios
-        .get(`http://localhost:8000/api/car/${ id }`)
+        .get(`http://localhost:8000/api/car/${ id }`, {
+            headers: {
+                    'Authorization': `Bearer ${token.getToken()}`
+                }
+        })
         .then(response => {
             this.car = response.data;
+            this.image = '/2022MainImages/'+response.data.car_image;
             this.car.car_series = this.car.car_series.split(",");
         })
         .catch(err => console.log(err))

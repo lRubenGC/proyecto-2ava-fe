@@ -1,38 +1,47 @@
 <template>
     <div id="user-register">
-        <form @submit.prevent="registerUser">
+        <form @submit.prevent="verifyUser">
             <h1>Regístrate!</h1>
             <div>
-                <input placeholder="Usuario" v-model="user.name" type="text" />
-                <span v-if="this.invalidUser" class="error-msg">El usuario debe tener más de 3 letras</span>
+                <input placeholder="Usuario" v-model="user.username" type="text" @input="processing()"/>
+                <span v-if="this.invalidUser" class="warn-msg">El usuario debe tener más de 3 letras</span>
             </div>
             <div>
                 <input placeholder="Email" v-model="user.email" type="text" />
-                <span v-if="this.invalidEmail" class="error-msg">Formato de correo incorrecto</span>
+                <span v-if="this.invalidEmail" class="warn-msg">Formato de correo incorrecto</span>
             </div>
             <div>
-                <input placeholder="Contraseña" v-model="user.password1" type="password" />
-                <span v-if="this.invalidPassword1" class="error-msg">La contraseña es muy corta</span>
+                <input placeholder="Contraseña" v-model="user.password1" type="password" autocomplete="on" />
+                <span v-if="this.invalidPassword1" class="warn-msg">La contraseña es muy corta</span>
             </div>
             <div>
-                <input placeholder="Repetir Contraseña" v-model="user.password2" type="password" />
-                <span v-if="this.invalidPassword2" class="error-msg">Las contraseñas no coinciden</span>
+                <input placeholder="Repetir Contraseña" v-model="user.password2" type="password" autocomplete="on" />
+                <span v-if="this.invalidPassword2" class="warn-msg">Las contraseñas no coinciden</span>
             </div>
             <div>
                 <button>REGISTRARSE</button>
             </div>
+                <span v-if="this.correctRegister" class="success-msg">Usuario registrado con éxito</span>
+                <span v-if="this.incorrectRegister" class="error-msg">Error en el registro</span>
+                <span v-if="this.usedUsername && this.procesando" class="error-msg">El usuario {{ user.username }} está en uso</span>
             <div>
-                    <p>Ya tienes cuenta? Inicia sesión <span class="change-view" @click="$emit('change-view')">aquí</span></p>
-                </div>
+                <p>Ya tienes cuenta? Inicia sesión <span class="change-view" @click="$emit('change-view')">aquí</span></p>
+            </div>
         </form>
     </div>
 </template>
 
 <script>
+import axios from 'axios';
+import router from '@/router';
+
 export default {
     name: 'register-component',
     data() {
         return {
+            correctRegister: false,
+            incorrectRegister: false,
+            usedUsername: false,
             procesando: false,
             correcto: false,
             invalidUser: false,
@@ -40,7 +49,7 @@ export default {
             invalidPassword1: false,
             invalidPassword2: false,
             user: {
-                name: '',
+                username: '',
                 email: '',
                 password1: '',
                 password2: ''
@@ -48,8 +57,7 @@ export default {
         }
     },
     methods: {
-        registerUser() {
-            this.procesando = true;
+        verifyUser() {
             this.correcto = false;
 
             if (this.invalidUserF) {
@@ -76,11 +84,47 @@ export default {
             }
             this.invalidPassword2 = false;
 
+            this.correcto = true;
+
+            this.registerUser();
+
+        },
+
+        registerUser() {
+            if (this.correcto) {
+                axios
+                .post('http://localhost:8000/user/register', {
+                    username: this.user.username,
+                    password: this.user.password1,
+                    email: this.user.email
+                })
+                .then(response => {
+                    if (response.status === 200) {
+                        this.usedUsername = false;
+                        this.correctRegister = true;
+                        this.procesando = false;
+                        // setTimeout(() => {
+                        //     // TODO: Cambiar la booleana del padre para cambiar de componente
+                        // }, 1000);
+                    }
+                })
+                .catch(err => {
+                    if (err.response.status === 400) {
+                        this.procesando = true;
+                        this.correctRegister = false;
+                        this.usedUsername = true;
+                    }
+                })
+            }
+        },
+
+        processing() {
+            this.procesando = false;
         }
     },
     computed: {
         invalidUserF() {
-            return this.user.name.length < 3;
+            return this.user.username.length < 3;
         },
 
         invalidEmailF() {
@@ -123,7 +167,6 @@ export default {
 
     label {
         display: block;
-        margin-bottom: 5px;
         font-size: 1.1em;
     }
 
@@ -154,12 +197,26 @@ export default {
         font-weight: 600;
     }
 
-    .error-msg {
+    .success-msg, .warn-msg, .error-msg {
         display: block;
-        color: orange;
-        margin: -10px 0 10px;
         font-weight: 600;
+        text-shadow: none;
+        background-color: rgb(0, 0, 0, 0.6);
+        border-radius: 100px;
+        padding: 5px;
+        margin: 15px 0;
+    }
+    .error-msg {
+        color: red;
     }
 
+    .warn-msg {
+        color: orange;
+        margin-top: -5px
+    }
+
+    .success-msg {
+        color: #86DC3D;
+    }
 
 </style>

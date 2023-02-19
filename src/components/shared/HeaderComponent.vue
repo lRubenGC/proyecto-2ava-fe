@@ -6,19 +6,26 @@
         <nav>
             <ul>
                 <li><router-link class="nav-item" to="/listado">Cuenta</router-link></li>
-                <li><router-link class="nav-item" to="/">Desconectarse</router-link></li>
+                <li @click="logout()" class="nav-item">Desconectarse</li>
             </ul>
         </nav>
     </header>
 </template>
 
 <script>
+import auth from '@/auth/getToken'
+
 export default {
-    name: 'header-component'
+    name: 'header-component',
+    methods: {
+        logout() {
+            auth.deleteCookie();
+        }
+    }
 }
 </script>
 
-<style>
+<style scoped>
 header {
     display: flex;
     justify-content: space-between;
@@ -44,5 +51,9 @@ nav li:not(:last-child) {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+}
+
+li {
+    cursor: pointer;
 }
 </style>

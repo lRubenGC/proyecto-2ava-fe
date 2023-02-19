@@ -3,19 +3,19 @@
         <form @submit.prevent="validateLogin">
                 <h1>Iniciar Sesión</h1>
                 <div>
-                    <input placeholder="Email" type="email" />
+                    <input placeholder="Username" type="text" v-model="user.username" />
                 </div>
                 <div>
-                    <input placeholder="Password" type="password" />
+                    <input placeholder="Password" type="password" v-model="user.password" autocomplete="on" />
                 </div>
                 <span v-if="this.invalidLogin" class="error-msg">Correo o contraseña no válidos</span>
 
                 <div>
                     <button>INICIAR SESIÓN</button>
                 </div>
-                <div>
+                <!-- <div>
                     <router-link to="/listado"><button>ENTRAR SIN INICIAR SESIÓN</button></router-link>
-                </div>
+                </div> -->
                 <div>
                     <p>¿No tienes cuenta? Registrate <span class="change-view" @click="$emit('change-view')">aquí</span></p>
                 </div>
@@ -24,16 +24,44 @@
 </template>
 
 <script>
+import axios from 'axios';
+import router from '@/router';
+
 export default {
     name: 'login-component',
     data() {
         return {
-            invalidLogin: true
+            invalidLogin: false,
+            user: {
+                username: '',
+                password: ''
+            }
         }
     },
     methods: {
         validateLogin() {
-            
+            axios
+                .post('http://localhost:8000/api/login_check', {
+                    username: this.user.username,
+                    password: this.user.password,
+                })
+                .then(response => {
+                    if (response.status === 200) {
+                        this.invalidLogin = false;
+                        const token = response.data.token;
+
+                        // Guardar token en una cokie que expire a los 7 dias
+                        const date = new Date();
+                        date.setTime(date.getTime() + (7 * 24 * 60 * 60 * 1000));
+                        const expires = date.toUTCString();
+                        document.cookie = `token=${token}; expires=${expires}; path=/`
+                        
+                        router.push({ name: 'car-list-view' });
+                    } else this.invalidLogin = true;
+                })
+                .catch(err => {
+                    this.invalidLogin = true;
+                })
         }
     }
 }

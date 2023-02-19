@@ -6,10 +6,12 @@
             <hr>
             <button v-on:click="filterBy('show-all')" class="filter-button show-all">Mostrar todos los coches</button>
             <button v-on:click="filterBy('Treasure Hunt')" class="filter-button treasure-hunt">Treasure Hunts</button>
-            <button v-on:click="filterBy('Super Treasure Hunt')" class="filter-button super-treasure-hunt">Super Treasure Hunts</button>
+            <button v-on:click="filterBy('Super Treasure Hunt')" class="filter-button super-treasure-hunt">Super Treasure
+                Hunts</button>
             <button v-on:click="filterBy('Red Edition')" class="filter-button red-edition">Red Edition</button>
             <div>
-                <button v-for="button in buttons" v-on:click="filterBy(button[0])" class="filter-button" :class="button[1]">{{ button[0] }}</button>
+                <button v-for="button in buttons" v-on:click="filterBy(button[0])" class="filter-button"
+                    :class="button[1]">{{ button[0] }}</button>
             </div>
         </div>
         <div class="card-body">
@@ -26,6 +28,7 @@
 import axios from 'axios';
 import HeaderComponent from "@/components/shared/HeaderComponent.vue";
 import CarCardComponent from "@/components/CarCardComponent.vue";
+import token from "@/auth/getToken";
 
 export default {
     name: 'car-list-view',
@@ -74,15 +77,19 @@ export default {
     },
     mounted() {
         axios
-        .get(`http://localhost:8000/api/cars`)
-        .then(response => {
-            this.cars = response.data;
-            this.cars.map(car => {
-                car.car_series = car.car_series.split(",");
-            });
-            this.cars_showed = [...this.cars];
-        })
-        .catch(err => console.log(err))
+            .get(`http://localhost:8000/api/cars`, {
+                headers: {
+                    'Authorization': `Bearer ${token.getToken()}`
+                }
+            })
+            .then(response => {
+                this.cars = response.data;
+                this.cars.map(car => {
+                    car.car_series = car.car_series.split(",");
+                });
+                this.cars_showed = [...this.cars];
+            })
+            .catch(err => console.log(err))
     },
     components: {
         HeaderComponent,
@@ -94,7 +101,7 @@ export default {
                 this.cars_showed = [...this.cars];
                 return;
             }
-            
+
             if (car_class === 'Treasure Hunt' || car_class === 'Super Treasure Hunt') {
                 this.cars_showed = [];
                 this.cars.filter(car => {
@@ -114,7 +121,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 #body {
     background-color: #E3E6E6;
 }
