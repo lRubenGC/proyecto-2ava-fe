@@ -61,7 +61,20 @@ export default {
                 })
                 .catch(err => {
                     this.invalidLogin = true;
+                });
+
+            axios
+                .post('http://localhost:8000/user/getUserId', {
+                    username: this.user.username
                 })
+                .then(response => {
+                    sessionStorage.setItem("userId", response.data);
+                })
+                .catch(err => {
+                    console.log(err);
+                })
+
+            sessionStorage.setItem("username", this.user.username);
         }
     }
 }

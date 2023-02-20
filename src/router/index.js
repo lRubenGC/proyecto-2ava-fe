@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import LoginView from '@/views/LoginView';
 import CarListView from '@/views/CarListView';
 import CarDetailedView from '@/views/CarDetailedView';
+import MyCarsView from '@/views/MyCarsView';
 import PageNotFound from '@/views/PageNotFoundView';
 
 const routes = [
@@ -24,6 +25,11 @@ const routes = [
     path: '/listado/coche:id',
     name: 'car-detailed-view',
     component: CarDetailedView
+  },
+  {
+    path: '/mis-coches',
+    name: 'my-cars-view',
+    component: MyCarsView
   }
 ]
 

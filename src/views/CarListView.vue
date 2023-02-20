@@ -2,7 +2,7 @@
     <div id="body">
         <header-component id="header" />
         <div class="header">
-            <h1>Listado de los 250 coches de Hot Wheels de 2022</h1>
+            <h1>Listado de los coches</h1>
             <hr>
             <button v-on:click="filterBy('show-all')" class="filter-button show-all">Mostrar todos los coches</button>
             <button v-on:click="filterBy('Treasure Hunt')" class="filter-button treasure-hunt">Treasure Hunts</button>
@@ -29,6 +29,8 @@ import axios from 'axios';
 import HeaderComponent from "@/components/shared/HeaderComponent.vue";
 import CarCardComponent from "@/components/CarCardComponent.vue";
 import token from "@/auth/getToken";
+import router from "@/router";
+
 
 export default {
     name: 'car-list-view',
@@ -90,6 +92,11 @@ export default {
                 this.cars_showed = [...this.cars];
             })
             .catch(err => console.log(err))
+
+            const valid = token.getToken();
+            if (!valid) {
+                router.push({ name: 'login-view' });
+            }
     },
     components: {
         HeaderComponent,
@@ -124,6 +131,11 @@ export default {
 <style scoped>
 #body {
     background-color: #E3E6E6;
+}
+
+hr {
+    margin-top: -10px;
+    width: 40%;
 }
 
 .card-body {

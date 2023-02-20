@@ -12,8 +12,10 @@
                 <p class="car-data">Versión del coche: {{ car.car_version }}</p>
                 <p class="car-data">Serie/s del coche: <span v-for="serie in car.car_series">{{ serie }}. </span></p>
                 <p class="car-data">Número de la serie: {{ car.series_col }}</p>
-                <router-link to="/listado" id="return-route"><button class="button">Volver al listado</button></router-link>
-                <button class="button add">Añadir a mi colección</button>
+                <button class="button add" @click="addCar">Añadir a mi colección</button>
+                <button class="button remove" @click="removeCar">Eliminar de mi colección</button>
+                <p class="alert alert-add" v-if="carAdded">Coche añadido a tu colección</p>
+                <p class="alert alert-remove" v-if="carRemoved">Coche eliminado de tu colección</p>
             </div>
         </div>
 
@@ -24,20 +26,24 @@
 import HeaderComponent from "@/components/shared/HeaderComponent.vue";
 import axios from 'axios';
 import token from "@/auth/getToken";
+import router from "@/router";
+
 
 export default {
     name: 'car-detailed-view',
     data() {
         return {
             car: [],
-            image: ''
+            image: '',
+            carAdded: false,
+            carRemoved: false
         }
     },
     components: {
         HeaderComponent
     },
     mounted() {
-        const id = this.$route.params.id
+        const id = this.$route.params.id;
         axios
         .get(`http://localhost:8000/api/car/${ id }`, {
             headers: {
@@ -50,9 +56,47 @@ export default {
             this.car.car_series = this.car.car_series.split(",");
         })
         .catch(err => console.log(err))
+
+
+        const valid = token.getToken();
+        if (!valid) {
+            router.push({ name: 'login-view' });
+        }
     },
     methods: {
+        addCar() {
+            const id = sessionStorage.getItem("userId");
+            axios
+            .post(`http://localhost:8000/user/${id}/cars/add`, {
+                car_id: this.car.id
+            })
+            .then(response => {
+                if (response.status === 200) {
+                    this.carAdded = true;
+                }
+                setTimeout(() => {
+                    this.carAdded = false;
+                }, 3000)
+            })
+            .catch(err => console.log(err))
+        },
 
+        removeCar() {
+            const id = sessionStorage.getItem("userId");
+            axios
+            .post(`http://localhost:8000/user/${id}/cars/remove`, {
+                car_id: this.car.id
+            })
+            .then(response => {
+                if (response.status === 200) {
+                    this.carRemoved = true;
+                }
+                setTimeout(() => {
+                    this.carRemoved = false;
+                }, 3000)
+            })
+            .catch(err => console.log(err))
+        }
     }
 }
 
@@ -103,6 +147,29 @@ export default {
 }
 
 .add {
+    color: #18A558;
+}
+
+.remove {
+    color: red;
+}
+
+.alert {
+    width: 42.5%;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.alert-add {
     background-color: #18A558;
+    color: #FFFFFF;
+}
+
+.alert-remove {
+    background-color: #FF6242;
+    color: #FFFFFF;
 }
 </style>

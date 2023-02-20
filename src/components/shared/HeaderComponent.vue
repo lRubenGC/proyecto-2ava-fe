@@ -5,7 +5,8 @@
         </div>
         <nav>
             <ul>
-                <li><router-link class="nav-item" to="/listado">Cuenta</router-link></li>
+                <li><router-link class="nav-item" :to="{ name: 'car-list-view' }">Listado</router-link></li>
+                <li><router-link class="nav-item" :to="{ name: 'my-cars-view' }">Mis coches</router-link></li>
                 <li @click="logout()" class="nav-item">Desconectarse</li>
             </ul>
         </nav>
@@ -19,6 +20,7 @@ export default {
     name: 'header-component',
     methods: {
         logout() {
+            sessionStorage.removeItem("userId");
             auth.deleteCookie();
         }
     }
@@ -51,9 +53,11 @@ nav li:not(:last-child) {
     text-decoration: none;
     color: white;
     font-size: 1.5em;
+    font-weight: 600;
 }
 
 li {
     cursor: pointer;
+    margin: 0 10px;
 }
 </style>
